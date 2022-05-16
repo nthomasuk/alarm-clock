@@ -1,5 +1,5 @@
 export class Clock {
-    target = document;
+    target = null;
     
     constructor(props={}) {
         if (props.target) this.target = props.target;

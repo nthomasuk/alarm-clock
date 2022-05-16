@@ -1,0 +1,21 @@
+.alarm {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    border-radius: 1em;
+    padding: 1em;
+}
+    
+.title {
+    font-size: 26px;
+    text-align: center;
+    padding: 1em;
+}
+
+.clock-time {
+    font-size: 21.px;
+    text-align: center;
+    padding: 1em;
+}
