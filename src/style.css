@@ -10,7 +10,7 @@ html, body {
     color: bisque;
 }
 
-#App {
+body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -18,14 +18,21 @@ html, body {
     flex: 1;
 }
 
-.clock {
-    color: red;
-    text-align: center; 
-}
-
 header, footer {
     display: flex;
     justify-content: center;
     padding: 1em;
+    background-color: cadetblue;
+}
+
+.clock {
+    display: flex;
+    flex-direction: row;
+    color: bisque;
+    text-align: center; 
+}
+
+.alarms {
+    text-align: center;
 }
 
